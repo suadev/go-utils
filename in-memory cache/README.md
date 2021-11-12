@@ -3,7 +3,7 @@ Basic TTL supported in-memory cache implementation without using any other 3rd p
 Usage:
 
 ```go
-	ttlCache, err := NewTTLCache(time.Minutes * 30)
+    ttlCache, err := NewTTLCache(time.Minutes * 30)
 
     err = ttlCache.Set("cachekey", <value>)
 
